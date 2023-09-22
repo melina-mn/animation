@@ -1,0 +1,41 @@
+body{
+    max-width:1500px; 
+    margin: 20px;
+    padding: 10px;
+}
+.link__container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    margin-left: 30px;
+    display: block;
+    height: 100%;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+ul li:before{
+    content: "";
+    position: absolute;
+    background: #383736;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    -webkit-transition: top 0.09s ease-in;
+    border: 1px solid black;
+}
+ul li:hover:before {
+    top: 0;
+}
