@@ -88,17 +88,17 @@ ul li{
     word-spacing: 10px;
 }
 .btn{
-width: 150px;
-height: 50px;
-border-radius: 10px;
-margin-top: 30px;
-margin-left: 350px;
-color:cornflowerblue;
-font-family: 'Gothic A1', sans-serif;
-justify-content: center;
-align-items: center;
-background-color:rgb(255, 255, 255);
-border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 350px;
+    color:cornflowerblue;
+    font-family: 'Gothic A1', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+    border: none;
 }
 .btn:hover{
     background-color: pink;
@@ -108,4 +108,25 @@ border: none;
     animation: bounce; 
     animation-duration: 2s; 
     animation-duration: 1s;
+}
+
+/* shop div */
+
+.shop{
+    border: 4px double black;
+    padding: 35px;
+    margin-top: 150px;
+    font-family: 'Gothic A1', sans-serif;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy{
+display: flex;
+justify-content: center;
+    font-size: 30PX;
+
 }
