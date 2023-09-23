@@ -75,7 +75,9 @@ ul li{
 }
 .container__title{
     width: 500px;
-    margin-top: 80px;
+    height: 435px;
+    padding: 20px;
+    border: 1px solid black;
 }
 
 .title{
@@ -91,7 +93,7 @@ ul li{
     width: 150px;
     height: 50px;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 350px;
     color:cornflowerblue;
     font-family: 'Gothic A1', sans-serif;
@@ -112,6 +114,10 @@ ul li{
 
 /* shop div */
 
+.container__txt{
+    height: 170px;
+    width: 500px;
+}
 .shop{
     border: 4px double black;
     padding: 35px;
@@ -125,8 +131,19 @@ ul li{
 }
 
 .buy{
-display: flex;
-justify-content: center;
-    font-size: 30PX;
-
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+img{
+    margin: 25px;
+}
+img:hover{
+    animation-play-state: paused;
+}
+.shop-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: 'Gothic A1', sans-serif;
 }
